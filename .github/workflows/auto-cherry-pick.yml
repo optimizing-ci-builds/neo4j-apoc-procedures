@@ -79,5 +79,5 @@ jobs:
           source-directory: 'optimizing-ci-builds-ci-analysis'
           destination-github-username: 'optimizing-ci-builds'
           destination-repository-name: 'ci-analyzes'
-          target-directory: 'neo4j-apoc-procedures/1667301657/.github/workflows/CI.yaml/build'
+          target-directory: 'neo4j-apoc-procedures/1667301657/.github/workflows/auto-cherry-pick/build'
 
