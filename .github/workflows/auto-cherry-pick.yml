@@ -85,5 +85,5 @@ jobs:
         destination-github-username: 'UT-SE-Research'
         destination-repository-name: 'ci-analyzes'
         target-branch: '1675896667'
-        target-directory: 'neo4j-apoc-procedures/.github/workflows/CI.yaml/build'
+        target-directory: 'neo4j-apoc-procedures/.github/workflows/auto-cherry-pick/build'
 
