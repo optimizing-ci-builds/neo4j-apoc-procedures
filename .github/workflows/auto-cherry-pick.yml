@@ -80,7 +80,7 @@ jobs:
           destination-github-username: 'UT-SE-Research'
           destination-repository-name: 'ci-analyzes'
           target-branch: '1676922271-c0ae930'
-          target-directory: 'neo4j-apoc-procedures/.github/workflows/CI.yaml/build'
+          target-directory: 'neo4j-apoc-procedures/.github/workflows/auto-cherry-pick/build'
         continue-on-error: true
       - name: Check push directory exit code
         if: steps.push_directory.outcome == 'failure'
