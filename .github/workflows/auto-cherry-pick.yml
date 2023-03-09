@@ -84,8 +84,8 @@ jobs:
       - name: Copy files to push to another directory
         if: steps.check_files.outputs.files_exists == 'true'
         run: |
-          mkdir -p neo4j-apoc-procedures/neo4j-apoc-procedures/.github/workflows/CI.yaml/build
-          cp -rvT optimizing-ci-builds-ci-analysis neo4j-apoc-procedures/neo4j-apoc-procedures/.github/workflows/CI.yaml/build
+          mkdir -p neo4j-apoc-procedures/neo4j-apoc-procedures/.github/workflows/auto-cherry-pick/build
+          cp -rvT optimizing-ci-builds-ci-analysis neo4j-apoc-procedures/neo4j-apoc-procedures/.github/workflows/auto-cherry-pick/build
       - name: Pushes analysis to another repository
         if: steps.check_files.outputs.files_exists == 'true'
         working-directory: neo4j-apoc-procedures
